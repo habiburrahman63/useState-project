@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 function App() {
-  const [piku, setHabib] = useState(10);
+  const [piku, setPiku] = useState(10);
   function doctoy() {
     if (piku > 0) {
-      setHabib(piku - 1);
+      setPiku(piku - 1);
     }
   }
 
